@@ -7,7 +7,7 @@ function summonCaptainPlanet(planeteerCalls)("earth!", "wind!", "heart!", "fire!
  return planeteerCalls.toUpperCase()+"!";
  }
  
-function longPlaneteerCalls(words) {
+function longPlaneteerCalls(words)("wind","fire") {
 for(var i =0; i < words.length; i++){
 if(words[i].length > 4) {
 return true;
@@ -16,13 +16,13 @@ return true;
 return false;  } 
 }
 
- function findTheCheese (foods) {
+ function findTheCheese (foods)("crackers","almonds", "cheddar", "gouda") {
 for(var i =0; i < foods.length; i++) {
 if(foods[i] === 'cheddar') {
- return foods[i];
+ return foods[i]==="cheese";
 } 
 }
-if(foods !== 'cheddar') {
+if(foods !== 'crackers') {
 return 'no cheese!';
 }
 }
