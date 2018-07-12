@@ -41,12 +41,15 @@ function findTheCheese (snacks){
     }
     
     }return "no cheese!"; }
+   
+   
     function wordsWithB(words){
     var bWords = [];
     for(var i = 0; i < words.length; i++){
       if (words[i].startsWith('b')){
         bWords.push(words[i]);
       }
+      else return "No b words!"
       
       //if word starts with B then push word into bWords Array
     }
